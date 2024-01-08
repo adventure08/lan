@@ -1,0 +1,18 @@
+#include <cstdio>
+#include <algorithm>
+using namespace std;
+int score[35];
+int main(){
+int N,K,sum;
+scanf("%d",&N);
+for(int=0;i<N;i++)
+{scanf("d",&score[i]);
+}
+scanf("d",&k);
+sort(score,score+N,greater<int>());
+sum=0;
+for(int=0;i<K;i++)
+sum+=score[i];
+printf("%.2f\n",1.0*sum/k)
+return0;
+}
